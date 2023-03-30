@@ -185,7 +185,7 @@ entityManager.getTransaction().commit(); // ou rollback, aussi dans l'applicatio
 ```
 
 Si vous n'êtes pas sur de comprendre comment les servlet filters fonctionnent, vous pouvez vous réferer
-à [cet exercice des années précédentes](../anciens-exercices/extra-exercice-servlet).
+à [cette introduction](./servlet.md).
 
 Vous devez trouver une façon d'arriver à cela! N'hésitez pas à nous le demander au laboratoire si vous êtes bloqués.
 
