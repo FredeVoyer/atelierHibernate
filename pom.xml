@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ca.ulaval.glo4002</groupId>
-    <artifactId>lab-hibernate</artifactId>
+    <artifactId>atelier-hibernate</artifactId>
     <packaging>pom</packaging>
     <version>0.0.0</version>
 
@@ -13,7 +13,7 @@
     </modules>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
@@ -28,16 +28,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>ca.ulaval.glo4002</groupId>
-                <artifactId>external-service-api</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>ca.ulaval.glo4002</groupId>
-                <artifactId>booking-api</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-api</artifactId>
